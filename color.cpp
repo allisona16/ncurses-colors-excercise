@@ -45,6 +45,11 @@ int main(int argc, char ** argv){
 		attron(COLOR_PAIR(4));
 		printw("this should be in red");
 	}
+	{
+		printw("Hi, what are you doing today?");
+		init_pair(1, COLOR_BLUE, COLOR_CYAN);
+
+	}
 
 
 	getch();
